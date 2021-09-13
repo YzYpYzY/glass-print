@@ -1,3 +1,48 @@
 {
-  "attendees": ["Julien", "Jérôme", "Bonne Maman"]
+  "attendees": [
+    {
+      "name": "Julien",
+      "color": "red"
+    },
+    {
+      "name": "Jérôme"
+    },
+    {
+      "name": "Bonne Maman",
+      "color": "green"
+    },
+    {
+      "name": "Julien",
+      "color": "red"
+    },
+    {
+      "name": "Jérôme"
+    },
+    {
+      "name": "Bonne Maman",
+      "color": "green"
+    },
+    {
+      "name": "Julien",
+      "color": "red"
+    },
+    {
+      "name": "Jérôme"
+    },
+    {
+      "name": "Bonne Maman",
+      "color": "green"
+    },
+    {
+      "name": "Julien",
+      "color": "red"
+    },
+    {
+      "name": "Jérôme"
+    },
+    {
+      "name": "Bonne Maman",
+      "color": "green"
+    }
+  ]
 }

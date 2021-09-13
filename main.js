@@ -44,7 +44,10 @@ function init(folderPath) {
 function generateOutput(templatePrint, templateImage, attendees, outputPath) {
   let images = "";
   for (let attendee of attendees) {
-    const image = templateImage.replace("##Name##", attendee);
+    const image = templateImage
+      .replace("##Name##", attendee.name)
+      .replace("##Color##", attendee.color ? attendee.color : "black")
+      .replace("##Color##", attendee.color ? attendee.color : "black");
     images += image;
   }
   const toPrint = templatePrint.replace("##ToPrint##", images);
